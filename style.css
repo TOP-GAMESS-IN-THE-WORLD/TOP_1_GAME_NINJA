@@ -1,0 +1,200 @@
+.dwonload{
+    border: 1px black groove;
+    background-color: rgb(5, 172, 5);
+    padding: 10px;
+    font-size: x-large;
+    
+}
+.a{
+    text-decoration:none;
+    color: white;
+    font-family: serif;
+}
+
+
+
+
+
+body{
+    background-color: wheat;
+   
+}
+.all1{
+   background-image: url("body1.jpg") ;
+    margin-left: 3%;
+    margin-right: 3%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size:100% ;
+} 
+h1{
+    font-size: 50px;
+    font-family: t;
+}
+.test1{
+    font-size: 20px;
+    
+}
+.description{
+    font-size: 20px;
+    font-family: arial; 
+}
+.image5{
+    margin-top: 10px;
+}
+.descriptio{
+    font-size: 20px;
+    font-family: arial;
+   
+}
+.top{
+    margin-bottom: 50px;
+    margin-top: 0%
+}
+.p1{
+
+background: #aaa;
+padding: 10px;
+margin-left: 70%;
+
+position: relative;
+background-position: right;
+}
+
+.p1::before{
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: aqua;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+   
+}
+
+.game{
+    font-size: 30px;
+}
+
+.dwonload{
+    
+    padding-top: 20px;
+    
+}
+.link{
+   
+background: #aaa;
+padding: 10px;
+
+margin-left: 70%;
+
+position: relative;
+background-position: right;
+}
+
+.link::before{
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: aqua;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+   
+}
+@media screen and (max-width:400px){
+    .dwonload{
+        width: 85%;
+    }
+}
+@media screen and (min-width:401px) and (max-width:600px){
+    .dwonload{
+        width: 50%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:800px){
+.dwonload{
+    width: 40%;
+}
+}
+@media screen and (min-width:801px) and (max-width:1000px){
+.dwonload{
+    width: 30%;
+}
+}
+@media screen and (min-width:1001px) and (max-width:1366px){
+    .dwonload{
+    width: 25%;
+    }
+}
+@media screen and (min-width:1367px) and (max-width:2000px){
+    .dwonload{
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .all1{
+        background-image: url("body2.jpg") ;
+        margin-left: 3%;
+        margin-right: 3%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+    }
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:600px){
+    .all1{
+        background-image: url("body3.jpg") ;
+        margin-left: 3%;
+        margin-right: 3%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:700px){
+    .all1{
+        background-image: url("body3.jpg") ;
+        margin-left: 3%;
+        margin-right: 3%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+    }
+}
+@media screen and (min-width:701px) and (max-width:800px){
+    .all1{
+        background-image: url("body4.jpg") ;
+        margin-left: 3%;
+        margin-right: 3%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1000px){
+    .all1{
+        background-image: url("body1.jpg") ;
+        margin-left: 3%;
+        margin-right: 3%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1366px){
+    .all1{
+        background-image: url("body.jpg") ;
+        margin-left: 3%;
+        margin-right: 3%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+    }
+}
